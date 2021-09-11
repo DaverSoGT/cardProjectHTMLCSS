@@ -1,0 +1,11 @@
+main {
+  margin-top: 20vh;
+  max-height: 680px;
+  max-width: 520px;
+}
+.buttons-card button {
+  margin: 10px auto 0
+}
+.main-card__plans {
+  margin: 40px 0;
+}

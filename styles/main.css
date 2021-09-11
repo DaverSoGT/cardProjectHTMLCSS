@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 62.5%;
+}
+body {
+  background-color: #d6e1ff;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+main {
+  margin: 0 auto;
+  margin-top: 10vh;
+  position: relative;
+  height: 85vh;
+  /* width: 88%; */
+  max-height: 563px;
+  max-width: 330px;
+  background-color: white;
+  border-radius: 20px;
+}
+section .header-card {
+  position: relative;
+}
+.header-card img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.main-card__text {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-card__text--title {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+.main-card__text--description {
+  margin: 0 50px;
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 2.2rem;
+  color: #8c94a2;
+}
+.main-card__plans {
+  margin: 20px 0;
+  background-color: #f8f9fe;
+  height: 80px;
+  width: 85%;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-content: space-between;
+}
+.main-card__plans span {
+  margin: 0 15px;
+  grid-column: 1;
+}
+.plans__text {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.plans__text b {
+  font-size: 1.4rem;
+}
+.plans__text p {
+  margin: 5px 0;
+  color: #8c94a2;
+  font-size: 1.3rem;
+}
+.main-card__plans a {
+  margin-inline-end: 20px;
+  grid-column: 5;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.buttons-card {
+  display: flex;
+  flex-direction: column;
+}
+.buttons-card button {
+  margin: 0 auto;
+  width: 85%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 800;
+}
+.buttons-card--proceed {
+  background-color: #382ae1;
+  color: white;
+  box-shadow: 0px 7px 44px -11px rgba(56,42,225,1);
+  -webkit-box-shadow: 0px 7px 44px -11px rgba(56,42,225,1);
+  -moz-box-shadow: 0px 7px 44px -11px rgba(56,42,225,1);
+}
+.buttons-card--cancel {
+  background: none;
+  color: #8c94a2;
+}
